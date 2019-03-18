@@ -92,7 +92,7 @@ The suggested order for going through each of the directories is:
 
 ## Stretch Goals
 
-1. One of Python's main philosophical tenets is its emphasis on readability. To
+1. [x] One of Python's main philosophical tenets is its emphasis on readability. To
    that end, the Python community has standardized around a style guide called
    [PEP 8](https://www.python.org/dev/peps/pep-0008/). Take a look at it and
    then go over the code you've written and make sure it adheres to what PEP 8
