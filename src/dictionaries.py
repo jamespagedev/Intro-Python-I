@@ -2,8 +2,8 @@
 Dictionaries are Python's implementation of associative arrays.
 There's not much different with Python's version compared to what
 you'll find in other languages (though you can also initialize and
-populate dictionaries using comprehensions just like you can with 
-lists!). 
+populate dictionaries using comprehensions just like you can with
+lists!).
 
 The docs can be found here:
 https://docs.python.org/3/tutorial/datastructures.html#dictionaries
@@ -55,10 +55,11 @@ print()
 #   All the values for the keys (e.g.: 41, -123, 'another place')
 #   By field do you mean the keys (e.g.: 'lat', 'lon', 'name')
 #   or by field do you mean only the 'lat' and 'lon' values (e.g.: 41, -123)
+# Answer: Print all keys and values
 for waypoint in waypoints:
-    print(list(waypoint))
-    print(waypoint.keys())
-    print(waypoint.values())
+    # print(list(waypoint))
+    # print(waypoint.keys())
+    # print(waypoint.values())
     print(waypoint.items())
-    print([waypoint['lat'], waypoint['lon']])
+    # print([waypoint['lat'], waypoint['lon']])
     print()
